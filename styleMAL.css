@@ -43,7 +43,7 @@ body{
 ------------------*/
 #mal_control_strip{
 	width:100% !important;
-	height:72px;
+	height:46px;
 	margin:auto !important;
 	max-width:100% !important;
 	background:#17171a !important;
@@ -217,7 +217,7 @@ td#mal_cs_pic{ display:none }
 	display:block;
 	background-image:url(images/header.jpg);
 	background-repeat:repeat;
-	background-position:center 72px;
+	background-position:center 46px;
 	background-attachment:fixed;
 	background-size:1920px 420px;
 	height:492px; /* background + nav */
@@ -578,6 +578,7 @@ input[value=Go]{display:none}
 }
 @media screen and (max-width:945px){ 
 	#mal_control_strip{ height:72px }
+    #list_surround:before{ background-position:center 72px }
 	.header_cw + table, .header_completed + table, .header_onhold + table, .header_dropped + table, .header_ptw + table{
 		right:1%;
 		top:40px;
