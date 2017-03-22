@@ -220,7 +220,7 @@ td#mal_cs_pic{ display:none }
 	background-position:center 46px;
 	background-attachment:fixed;
 	background-size:1920px 420px;
-	height:420px;
+	height:492px; /* background + nav */
 	width:100%;
 	overflow:hidden;
 	z-index:-1;
