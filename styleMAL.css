@@ -217,7 +217,7 @@ td#mal_cs_pic{ display:none }
 	display:block;
 	background-image:url(images/header.jpg);
 	background-repeat:repeat;
-	background-position:center 46px;
+	background-position:center 72px;
 	background-attachment:fixed;
 	background-size:1920px 420px;
 	height:492px; /* background + nav */
